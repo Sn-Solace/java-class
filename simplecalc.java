@@ -31,6 +31,9 @@ public class simplecalc {
         }
 
         newscanner.close();
+
+        //create folder called calculator, new file main .java, diff methods for each operationmb
+        
     }
 
 }

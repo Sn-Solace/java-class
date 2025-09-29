@@ -1,10 +1,9 @@
-import java.util.Scanner;
 
 
 public class oop {
     public static void main(String[] args) {
 
-        
+    
 
      System.out.println(bark());   
      System.out.println(Dogage());  
@@ -18,6 +17,8 @@ public class oop {
      nameMethod("Solace");
      nameMethod("Felix");
      nameMethod("Christine");
+
+     LoopTimesTable();
     }  
 
     static String bark(){
@@ -35,14 +36,13 @@ public class oop {
     static void nameMethod(String fname){
         System.out.println(fname + " Majesty");
     }
+
+    static void LoopTimesTable(){
+        int a = 5;
+         for (int b = 0; b <= 12; b++) {
+            System.out.println(a * b);
+       }
+    }
 }
 
 
-// class Dog{
-//     String bark(){
-//         return "woof woof";
-//     } 
-//     int Dogage(){
-//         return 17;
-//     }
-// }
